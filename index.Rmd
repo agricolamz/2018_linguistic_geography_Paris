@@ -2,7 +2,7 @@
 title: "Using R packages <br> for linguistic cartography:"
 subtitle: "possibilities, limitations and perspectives"
 author: "G. Moroz <br> Linguistic Convergence Laboratory, NRU HSE"
-date: "2017/11/28, Inalco, Paris"
+date: "2017/11/28, Inalco, Paris <br> Link to the presentation: goo.gl/LUZYev"
 bibliography: bibliography.bib
 output:
   slidy_presentation:
@@ -311,5 +311,7 @@ It is the only field, where linguistics try to do prediction. It is not homogene
 ## Thank you!
 
 G. Moroz (agricolamz@gmail.com)
+
+Link to this presentation: [goo.gl/LUZYev](https://goo.gl/LUZYev)
 
 ## Referenses {.smaller}
