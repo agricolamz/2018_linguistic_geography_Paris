@@ -181,7 +181,7 @@ leaflet() %>%
 Data collected by [Nina Dobrushina, et. al.](https://multidagestan.com/team)
 
 ## 3. Linguistic features + SPACE + TIME: <br> Problems so far?
-There is no (as far as I know) a good solution in R for geting data from Raster pictures. That make complicated work with old maps.
+There is no (as far as I know) a good solution in R for getting data from Raster pictures. As a result it is complicated work with old maps.
 
 >- old roads could explain complex contact situations
 >- old maps could show old settlement patterns
@@ -248,12 +248,12 @@ Data created by [Niko Partanen](https://github.com/nikopartanen/language_maps).
 ## 4. Relation between some languoids: <br> @heeringa15
 <center>![](Heeringa_Hinskens_2.png)</center>
 
-Convergence/divergence between dialects measured on the basis of all sound changes (left), on the basis of sound changes which cause dialects to converge to standard Dutch (center) and on the basis of sound changes which cause dialects to diverge from standard Dutch (right). Red lines indicate convergence and blue lines indicate divergence; the intensity represents the degree of convergence (red shade) or divergence (blue shade).
+Convergence/divergence between dialects measured on the basis of all sound changes (left), on the basis of sound changes which cause dialects to converge to standard Dutch (centre) and on the basis of sound changes which cause dialects to diverge from standard Dutch (right). Red lines indicate convergence and blue lines indicate divergence; the intensity represents the degree of convergence (red shade) or divergence (blue shade).
 
 ## 4. Relation between some languoids: <br> @heeringa15
 <center>![](Heeringa_Hinskens_3.png)</center>
 
-Convergence/divergence between neighboring dialects measured on the basis of all sound changes (left), on the basis of sound changes which cause dialects to converge to standard Dutch (center) and on the basis of sound changes which cause dialects to diverge from standard Dutch (right). Red lines indicate convergence and blue lines indicate divergence; the intensity represents the degree of convergence (red shade) or divergence (blue shade).
+Convergence/divergence between neighbouring dialects measured on the basis of all sound changes (left), on the basis of sound changes which cause dialects to converge to standard Dutch (centre) and on the basis of sound changes which cause dialects to diverge from standard Dutch (right). Red lines indicate convergence and blue lines indicate divergence; the intensity represents the degree of convergence (red shade) or divergence (blue shade).
 
 ## 5. Relation between some linguistic features in SPACE (+ TIME): <br> Strokes
 ```{r}
@@ -268,10 +268,10 @@ It also possible to converge multiple features to one.
 
 ## 5. Relation between some linguistic features in SPACE (+ TIME): <br> What if we have 100 features?
 
->- Multiple features requere a database...
->- that allow to work with complex query...
->- Methods for dimention reduction (PCA/MCA, MDS, etc.) allow to cluster features and define the interesting one
->- But anyway it is linguists who need to decide whether feature or feature combination is *ineteresting* or not.
+>- Multiple features require a database...
+>- that allows working with complex query...
+>- Methods for dimension reduction (PCA/MCA, MDS, etc.) allow to cluster features and define the interesting one
+>- But anyway it is linguists who need to decide whether feature or feature combination is *interesting* or not.
 
 ## 5. Relation between some linguistic features in SPACE (+ TIME): <br> Is space important for feature destribution?
 
@@ -279,7 +279,7 @@ It depends. But how to measure it?
 
 >- Spatial autocorrelation:
 >     - Moran's I (@moran48, @odland88). The test statistic, I, ranges in value from negative to positive 1, with 0 indicating random spatial distribution. Positive values indicate a tendency towards clustering of similar values, while negative values indicate a tendency towards dispersion of similar values.
->     - Getis-Ord G~i* (@ord95). This measure tests for local spatial autocorrelation, which asks whether each location is part of a significant high or low value cluster with its neighbors.
+>     - Getis-Ord G~i* (@ord95). This measure tests for local spatial autocorrelation, which asks whether each location is part of a significant high or low-value cluster with its neighbours.
 
 See (@tamminga13, @grieve13) for linguistic usage.
 
@@ -303,9 +303,9 @@ It is the only field, where linguistics try to do prediction. It is not homogene
 ## 8. Conclusions
 
 >- There is a lot of work on linguistic mapping that could be automated
->- Te open Science and standards for linguistic mapping will make
->       - our life easear
->       - our researchs more comparable
+>- To open Science and standards for linguistic mapping will make
+>       - our life easier
+>       - our research more comparable
 >       - our work more reproducible
 
 ## Thank you!
